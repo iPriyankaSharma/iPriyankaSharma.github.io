@@ -5,6 +5,7 @@ section {
 }
 
 
+/*http://designer.ondrejsvestka.cz/*/
 
 
 h1 {
@@ -44,4 +45,44 @@ h1 {
  padding-right: 0 !important;
  padding-left: 0 !important;
  margin-bottom: 10px; 
+}
+
+.progress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    font-size: .85rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #eceeef;
+    border-radius: 0 !important;
+}
+
+.progress-bar {
+ background-color: #4b82b1  !important;
+     height: 2em !important;
+}
+
+.skill-list {
+  margin-bottom: 10px;
+}
+
+/*Media Queries */
+
+@media only screen and (max-width: 600px) {
+ h1 {
+ font-size: 30px !important;
+ font-family: "Open Sans", Helvetica, Arial, sans-serif;
+ font-weight: 700 !important;
+ line-height: 1.2 !important;
+ color: #555;
+ margin-bottom: 20px;
+}
+ secttion {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+ }
 }
