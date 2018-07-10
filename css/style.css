@@ -4,9 +4,6 @@ section {
  padding-bottom: 30px;
 }
 
-
-/*http://designer.ondrejsvestka.cz/*/
-
 h1 {
  font-size: 70px !important;
  font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -83,6 +80,10 @@ h1 {
  margin-right: 0;
 }
 
+img[src="images/logixal.png"] {
+    width: 321px;
+    height: 180px;
+}
 
 /*Media Queries */
 
