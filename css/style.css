@@ -81,8 +81,8 @@ h1 {
 }
 
 img[src="images/logixal.png"] {
-    width: 321px;
-    height: 180px;
+    width: 321px !important;
+    height: 180px !important;
 }
 
 /*Media Queries */
