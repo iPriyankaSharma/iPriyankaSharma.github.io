@@ -81,10 +81,16 @@ h1 {
 }
 
 img[src="images/logixal.png"] {
-    width: 321px !important;
-    height: 175px !important;
+    width: 335px !important;
+    height: 186px !important;
+    margin-left: 6px !important;
 }
 
+/* .img-responsive {
+    width: 100% !important;
+    height: 14em !important;
+}
+ */
 /*Media Queries */
 
 @media only screen and (max-width: 600px) {
