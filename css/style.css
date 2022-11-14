@@ -3,8 +3,8 @@ html { background-image: linear-gradient(to left top, #5d04b7, #3f1aa2, #241f8a,
 
 body { 
     background-image: linear-gradient(to left top, #5d04b7, #3f1aa2, #241f8a, #0c1e72, #001b58, #031c5a, #061d5c, #091e5e, #23237b, #422597, #6520b1, #8c06c7); 
-    font-family: Raleway;
-    color: #ffffff;
+    font-family: Raleway !important;
+    color: #ffffff !important;
 }
 
 .box { padding: 4% 4% }
