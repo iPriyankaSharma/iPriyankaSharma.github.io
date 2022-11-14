@@ -72,7 +72,7 @@ h1 {
 }
 
 .progress {
-    height: 1.2 !important;
+    --bs-progress-height: 1.2rem !important;
     display: flex;
     overflow: hidden;
     font-size: var(--bs-progress-font-size);
