@@ -1,4 +1,4 @@
-body { 
+html, body { 
     background-image: linear-gradient(to left top, #5d04b7, #3f1aa2, #241f8a, #0c1e72, #001b58, #031c5a, #061d5c, #091e5e, #23237b, #422597, #6520b1, #8c06c7); 
     font-family: Raleway;
 }
@@ -20,7 +20,7 @@ h1 {
  font-size: 70px !important;
  font-weight: 700 !important;
  line-height: 1.2 !important;
- color: #555;
+ color: #fff;
  margin-bottom: 20px;
 }
 
@@ -70,12 +70,12 @@ h1 {
  font-size: .85rem;
  line-height: 1rem;
  text-align: center;
- -color: #eceeef;
+ color: #eceeef;
  border-radius: 0 !important;
 }
 
 .progress-bar {
- background-color: #2196f3a8 !important;
+ background-color: linear-gradient(to left top, #140425, #180b3c, #1b0d55, #1c0d6f, #1a0d8b, #220c88, #280a84, #2d0981, #2e0b60, #280d43, #1e0e28, #0e0b0f); !important;
  height: 2em !important;
 }
 
@@ -109,7 +109,7 @@ img[src="images/logixal.png"] {
   font-size: 26px !important;
   font-weight: 700 !important;
   line-height: 1.2 !important;
-  color: #555;
+  color: #fff;
   margin-bottom: 20px;
  }
  secttion {
