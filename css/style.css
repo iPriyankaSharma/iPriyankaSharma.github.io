@@ -14,7 +14,7 @@ body {
 }
 
 .box { padding: 4% 4% }
-.box:nth-child(3) { height: 86% !important;}
+.box-img { height: 76% !important;}
 
 .box a > img {
     max-width: 97%;
