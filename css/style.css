@@ -8,7 +8,9 @@ body {
 }
 
 .text-primary {
-    color: white !important;
+    background: -webkit-linear-gradient(#5938ffa8, #d4d4d4) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
 }
 
 .box { padding: 4% 4% }
