@@ -1,3 +1,12 @@
+* {
+background-image: linear-gradient(to left top, #5f308e, #492c7f, #35286f, #22225e, #111c4d, #131f4f, #142152, #162454, #28316c, #3c3f85, #514d9e, #675bb7);
+}
+
+.box a > img {
+    max-width: 97%;
+    border-radius: 10px;
+}
+
 section {
  position: relative;
  padding-top: 30px;
@@ -59,7 +68,8 @@ h1 {
  font-size: .85rem;
  line-height: 1rem;
  text-align: center;
- background-color: #eceeef;
+ 
+  -color: #eceeef;
  border-radius: 0 !important;
 }
 
