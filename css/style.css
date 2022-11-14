@@ -7,8 +7,12 @@ body {
     color: #ffffff !important;
 }
 
+.text-primary {
+    color: white !important;
+}
+
 .box { padding: 4% 4% }
-.box:nth-child(3) { height: 86%}
+.box:nth-child(3) { height: 86% !important;}
 
 .box a > img {
     max-width: 97%;
@@ -73,7 +77,7 @@ h1 {
  display: flex;
  overflow: hidden;
  font-size: .85rem;
- line-height: 1.2rem;
+ line-height: 1.4rem !important;
  text-align: center;
  color: #eceeef;
  background-color: #08c36ba8 !important;
@@ -83,6 +87,7 @@ h1 {
 .progress-bar {
  background-color: #08c36ba8 !important;
  height: 2em !important;
+ line-height: 1.4rem !important;
 }
 
 .skill-list {
