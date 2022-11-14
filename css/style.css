@@ -18,7 +18,7 @@ body {
     width: 97% !important;
     border-radius: 10px;
     position: relative;
-    top: 20px;
+    top: 22px;
     height: 85.5% !important;
 }
 
@@ -60,7 +60,7 @@ h1 {
  content: " ";
  display: block;
  width: 100px;
- height: 2px;
+ height: 7px;
  margin: 20px 0 20px;
  background: #2b90d9;
 }
