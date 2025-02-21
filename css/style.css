@@ -1,7 +1,12 @@
 body { 
-    background-image: linear-gradient(to left top, #5d04b7, #3f1aa2, #241f8a, #0c1e72, #001b58, #031c5a, #061d5c, #091e5e, #23237b, #422597, #6520b1, #8c06c7); 
-    font-family: Raleway !important;
-    color: #ffffff !important;
+/*     background-image: linear-gradient(to left top, #5d04b7, #3f1aa2, #241f8a, #0c1e72, #001b58, #031c5a, #061d5c, #091e5e, #23237b, #422597, #6520b1, #8c06c7); 
+    font-family: Raleway !important; */
+font-family: Roboto !important;
+    background: #00F260;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*     color: #ffffff !important; */
 }
 
 .text-primary {
