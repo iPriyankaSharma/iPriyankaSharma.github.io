@@ -2,264 +2,153 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-        
-        /* General Styles */
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Roboto', sans-serif;
-            background-color: #fff;
-            color: #333;
-            overflow-x: hidden;
-            transition: background-color 0.3s ease;
-        }
-
-        h1, h2, h3 {
-            color: #000;
-        }
-
-        a {
-            color: inherit;
-            text-decoration: none;
-        }
-
-        .container {
-            max-width: 1200px;
-        }
-
-        /* Intro Section */
-        .intro {
-            height: 100vh;
-            background: url('https://source.unsplash.com/random/1600x900') no-repeat center center fixed;
-            background-size: cover;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-direction: column;
-            animation: fadeIn 1.5s ease-in-out;
-        }
-
-        .intro h1 {
-            font-size: 3rem;
-            font-weight: 500;
-            opacity: 0;
-            animation: fadeIn 2s ease-in-out forwards;
-        }
-
-        .intro h3 {
-            font-size: 1.5rem;
-            opacity: 0;
-            animation: fadeIn 2.5s ease-in-out forwards;
-        }
-
-        .intro .text-primary {
-            color: #f04e23;
-        }
-
-        .intro button {
-            background-color: #000;
-            border: none;
-            padding: 10px 20px;
-            color: white;
-            font-size: 1rem;
-            cursor: pointer;
-            border-radius: 5px;
-            margin-top: 20px;
-            opacity: 0;
-            animation: fadeIn 3s ease-in-out forwards;
-        }
-
-        .intro button:hover {
-            background-color: #fff;
-            color: #000;
-        }
-
-        /* Parallax Effect */
-        .parallax {
-            background-image: url('https://source.unsplash.com/random/1600x900');
-            height: 100vh;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        /* About Section */
-        .selectedWork {
-            padding: 60px 20px;
-            background-color: #f9f9f9;
-            text-align: center;
-            animation: fadeIn 2s ease-in-out forwards;
-        }
-
-        .selectedWork .heading-work {
-            font-size: 2.5rem;
-            color: #333;
-        }
-
-        /* Portfolio Section */
-        .box img {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .box img:hover {
-            transform: scale(1.05);
-        }
-
-        .box {
-            margin-bottom: 30px;
-        }
-
-        .box a {
-            display: block;
-        }
-
-        /* Skills Section */
-        .skill-list {
-            margin-bottom: 20px;
-        }
-
-        .progress {
-            height: 10px;
-            border-radius: 5px;
-            background-color: #e0e0e0;
-        }
-
-        .progress-bar {
-            border-radius: 5px;
-            background-color: #f04e23;
-            text-align: center;
-            color: white;
-        }
-
-        /* Footer */
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 0.8rem;
-        }
-
-        /* Animations */
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            100% {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-    </style>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="css/style.css">
+ <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ <style>
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+ </style>
 </head>
 
 <body>
+ <section class="intro mt-6">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+     <h1>Hello. <br>
+      I'm <span class="text-primary">Priyanka Sharma</span>,
+     </h1>
+     <h3>
+      Lead Front-End Engineer | Team Leader | Innovator
+    </h3> 
+    </div>
+   </div>
+  </div>
+ </section>
+ <!-- / Intro -->
+ <section class="selectedWork">
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
+     <h1 class="heading-work">
+      Selected Works
+    </h1> </div>
+   </div>
+  </div>
+ </section>
+ <!-- Selected Work -->
+ <section>
+  <div class="container-fluid no-gutters">
+   <div class="row no-grid-space">
+    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 col-custom">
+     <div class="box">
+      <a href="eudaan.org" target="_blank"><img src="images/eudaan.png" alt="  Portfolio Links" class="center-block img-responsive"></a>
+     </div>
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 col-custom">
+     <div class="box">
+      <a href="bitlevel.in" target="_blank"><img src="images/bitlevel.png" alt="  Portfolio Links" class="center-block img-responsive"></a>
+     </div>
+    </div>
+    <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 col-custom">
+     <div class="box-img">
+      <a href="inbackorder.com" target="_blank"><img src="images/inbackorder.png" alt="  Portfolio Links" class="center-block img-responsive"></a>
+     </div>
+    </div> 
+   </div>
+  </div>
+ </section>
+ <!-- Portfolio Links -->
+ <section>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-6 col-lg-6">
+     <h1>     About me     </h1>
+     <br>
+     <p><strong> Software Engineer II </strong>  in Banking domain, I am a Lead Front-End Engineer at Banking Firm, for Bank Projects. I thoroughly enjoy buildiing frontend architecture and web apps for enterprise.
+      Previously, extensively worked on UI/Cloud Framework for E-commerce Domain and Education Domain. 
+     <br>
+      <br>
+       <p> I have around 10 years of experience in IT Industry. I have extensively worked on UI tools and languages. Developing RWD Websites as per Modern Web Industry. </p>
 
-    <!-- Intro Section -->
-    <section class="intro">
-        <h1>Hello. <br> I'm <span class="text-primary">Sharma</span>,</h1>
-        <h3>Lead Front-End Engineer | Team Leader | Innovator</h3>
-        <button onclick="document.getElementById('selectedWork').scrollIntoView({ behavior: 'smooth' });">View Works</button>
-    </section>
+      <ul>
+       <li> Team Leader - Handling multiple technical teams. </li> 
+      <li> Also, an Individual Contributor.</li>
+      <li> Excellent experience on Agile Projects. SVN Tools such as Github. </li>
+    </ul>
+    </div>
+    <div class="col-md-6 col-lg-6">
+        <h1>    Expertise    </h1>
+     <br>
+     <div class="skill-list">
+      <p>Angular 12+ </p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+     
+     <div class="skill-list">
+      <p>Bootstrap</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+     </div>
+      
+     <div class="skill-list">
+      <p>HTML5</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+     </div>
+     <div class="skill-list">
+      <p>CSS3</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+     </div>
+     <div class="skill-list">
+      <p>Javascript</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width:85%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+     </div>
+     <div class="skill-list">
+      <p>Jquery</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">75%</div>
+      </div>
+     </div>
+     <div class="skill-list">
+      <p>React Js</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+      </div>
+     </div>
+     <div class="skill-list">
+      <p>Microsoft Office</p>
+      <div class="progress">
+       <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">95%</div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </section>
+<!-- / Skill List-->
+<section>
+ <div class="container">
+  <div class="row">
+   <div class="col-md-12 col-lg-12 col-xs-12">
+    <p>&copy; All Rights Reserved.</p>
+   </div>
+  </div>
+ </div>
+</section>
+ <!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
 
-    <!-- Selected Work Section -->
-    <section class="selectedWork" id="selectedWork">
-        <h1 class="heading-work">Selected Works</h1>
-        <div class="container-fluid no-gutters">
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="box">
-                        <a href="https://eudaan.org" target="_blank"><img src="images/eudaan.png" alt="Portfolio Link"></a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="box">
-                        <a href="https://bitlevel.in" target="_blank"><img src="images/bitlevel.png" alt="Portfolio Link"></a>
-                    </div>
-                </div>
-                <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12">
-                    <div class="box">
-                        <a href="https://inbackorder.com" target="_blank"><img src="images/inbackorder.png" alt="Portfolio Link"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About and Expertise Section -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6">
-                    <h1>About Me</h1>
-                    <p><strong>Software Engineer II</strong> in Banking domain, I am a Lead Front-End Engineer at a Banking Firm. I thoroughly enjoy building frontend architecture and web apps for enterprise-level projects. Previously, I have worked extensively on UI/Cloud frameworks for the E-commerce and Education domains.</p>
-                    <p>I have 10 years of experience in the IT industry and specialize in developing RWD Websites using modern web technologies.</p>
-                    <ul>
-                        <li>Team Leader - Handling multiple technical teams</li>
-                        <li>Also, an Individual Contributor</li>
-                        <li>Excellent experience in Agile Projects using GitHub and other tools</li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <h1>Expertise</h1>
-                    <div class="skill-list">
-                        <p>Angular 12+</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 95%;">95%</div>
-                        </div>
-                    </div>
-                    <div class="skill-list">
-                        <p>Bootstrap</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 95%;">95%</div>
-                        </div>
-                    </div>
-                    <div class="skill-list">
-                        <p>HTML5</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 95%;">95%</div>
-                        </div>
-                    </div>
-                    <div class="skill-list">
-                        <p>CSS3</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 95%;">95%</div>
-                        </div>
-                    </div>
-                    <div class="skill-list">
-                        <p>JavaScript</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 85%;">85%</div>
-                        </div>
-                    </div>
-                    <div class="skill-list">
-                        <p>React JS</p>
-                        <div class="progress">
-                            <div class="progress-bar" style="width: 90%;">90%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer Section -->
-    <footer>
-        <p>&copy; 2025 Sharma. All rights reserved.</p>
-    </
+</html>
